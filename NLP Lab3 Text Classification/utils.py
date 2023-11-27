@@ -38,7 +38,7 @@ def process_tweet(tweet):
             stem_word = stemmer.stem(word)  # stemming word
             tweets_clean.append(stem_word)
 
-    return tweets_clean
+    return tweets_clean #list of stemmed words
 
 
 def build_freqs(tweets, ys):
@@ -67,4 +67,4 @@ def build_freqs(tweets, ys):
             else:
                 freqs[pair] = 1
 
-    return freqs
+    return freqs #freq array : key=(word, sentiment) value=frequency
