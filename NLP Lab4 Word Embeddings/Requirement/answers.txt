@@ -1,0 +1,48 @@
+
+Student 1: Peter Atef
+Student 2: Beshoy Morad
+
+Q1:
+
+There are 243 different words in the dataset which the model trained on (word_embeddings_subset.p) one for each country.
+Vocab size is 243.
+
+
+Q2:
+
+The dimension of each word embedding is 300. (300 x 1)
+
+
+Predicted Country:
+Egypt
+
+Predicted Similarity:
+0.7626820802688599
+
+Q3:
+
+Yes, because the relationship between Athens and Greece is similar to the relationship between
+Cairo and Egypt. (Athens - Greece = Egypt - Cairo)
+
+
+Q4:
+
+Yes, because the similarity is close to 1 and the two vectors of (Cairo, Egypt) are related to each others.
+Similarity is positive because the two vectors are in the same direction.
+
+
+Computed Accuracy:
+0.9192082407594425
+
+Q5:
+
+Yes, The words that appear close to each other are similar in the context (meaning) => clustered together.
+
+
+Q6:
+
+(village, town, city) are close to each other in the plotting beacuse they are in similar contexts.
+Same with (gas, oil, petroleum) (sad, joyful, happy) (country, continent).
+Also (country, continent) are close to (village, town, city) as they are slightly similar,
+but they are far away from (gas, oil, petroleum) as they are different.
+
