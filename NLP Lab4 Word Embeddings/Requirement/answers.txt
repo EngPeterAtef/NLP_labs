@@ -43,6 +43,6 @@ Q6:
 
 (village, town, city) are close to each other in the plotting beacuse they are in similar contexts.
 Same with (gas, oil, petroleum) (sad, joyful, happy) (country, continent).
-Also (country, continent) are close to (village, town, city) as they are slightly similar,
-but they are far away from (gas, oil, petroleum) as they are different.
+Also (country, continent) are close to (village, town, city) as they are slightly similar in context,
+but they are far away from (gas, oil, petroleum) as they are different in context.
 
